@@ -1,10 +1,10 @@
 READ
 READ
-SUB 
-JUMP.EQ.0 L1
-PRINT "not equal"
-HALT
+SUBTRACT 
+IF_0_GOTO L1
+LOG "not equal"
+END
 
 L1:
-PRINT "equal"
-HALT
+LOG "equal"
+END
